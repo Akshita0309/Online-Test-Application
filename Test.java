@@ -17,7 +17,7 @@ public class Test extends JFrame implements ActionListener {
     JLabel qno, question;
     JRadioButton opt1, opt2, opt3, opt4;
     ButtonGroup groupoptions;
-    JButton next, submit, lifeline;
+    JButton next, submit, hint;
     
     public static int timer = 15;
     public static int ans_given = 0;
@@ -156,13 +156,13 @@ public class Test extends JFrame implements ActionListener {
         next.addActionListener(this);
         add(next);
         
-        lifeline = new JButton("50-50 Lifeline");
-        lifeline.setBounds(1100, 630, 200, 40);
-        lifeline.setFont(new Font("Tahoma", Font.PLAIN, 22));
-        lifeline.setBackground(new Color(30, 144, 255));
-        lifeline.setForeground(Color.WHITE);
-        lifeline.addActionListener(this);
-        add(lifeline);
+        hint = new JButton("Hint");
+        hint.setBounds(1100, 630, 200, 40);
+        hint.setFont(new Font("Tahoma", Font.PLAIN, 22));
+        hint.setBackground(new Color(30, 144, 255));
+        hint.setForeground(Color.WHITE);
+        hint.addActionListener(this);
+        add(hint);
         
         submit = new JButton("Submit");
         submit.setBounds(1100, 710, 200, 40);
