@@ -1,0 +1,9 @@
+This program consists of 4  classes which have been connected to develop an efficient test application.
+-> The login class takes the User name as input and consists of button as back and rules. The back button will close the teat application and the rules button will proceed to the rules description of the test. Login class has used JLabel, JtextField and JButton.
+
+-> The rules class describes the test rules using JLabel for rules and JButton for buttons- back to move to the previous(login) page and start button to start the test.
+
+-> The test class presents the user with multiple questions (the correct answers have already been provided in the class) with multiple choice options. Each question can be attempted within the limited time period. If the time is over the test proceeds to the next question saving the chosen option or null if not chosen any. W have used radioButtons to attain chosing a particular option and groupoptions to remove the selected option upon next question. This class contains buttons- next(to move to the next question before time), hint(to remove any 2 options for a particluar question and can only be used once during the entire test) and submit button ( which will be enables at the last question to submit the test). 
+
+-> For each correct answers the user has slected, the score increases by 10. The Score class finally shows the score of the user from the test. There is a button if the user wants to attempt another test. If the user clicks on attempt again, then the application will return back to the login page.
+
