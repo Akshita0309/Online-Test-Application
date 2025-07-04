@@ -22,7 +22,7 @@ public class login extends JFrame implements ActionListener {
         image.setBounds(0,0,500,500);
         add(image);
         
-        JLabel heading= new JLabel("Simple Minds");
+        JLabel heading= new JLabel("JAVA TEST");
         heading.setBounds(750,60,300,45);
         heading.setFont(new Font("Viner Hand ITC", Font.BOLD, 40));
         heading.setForeground(Color.black);
